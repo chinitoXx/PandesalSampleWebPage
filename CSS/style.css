@@ -1,0 +1,60 @@
+/*
+ELEMENT SELECTOR
+ID SELECTOR
+CLASS SELECTOR
+*/
+
+body{
+    /*background-color:darkblue;*/
+    margin:0;
+    padding:2%;
+  }
+  
+  header{
+    background-color:lightblue;
+    padding:2%;
+    color:black;
+  }
+  
+  .container{
+    height:100vh;
+    width:25%;
+    padding:.5%;
+    margin:10%;
+    background-color:darkblue;
+    color:white;
+  }
+  
+  .blog-title{
+    display:inline-block;
+    width:75%;
+    background-color:lightblue;
+    margin:5%;
+    padding:0;
+    
+  }
+  
+  .navigation{
+    float:right;
+    display:inline-block;
+    width:40%;
+    height:5vh;
+    background-color:navy;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+    text-align:left;
+  }
+  
+  ul li{
+    margin-left:50px;
+    float:left;
+    list-style-type:none;
+  }
+  
+  a{
+    color:white;
+    text-decoration:none;
+  }
